@@ -177,10 +177,14 @@ a:hover {
 /* Media Query */
 
 @media (max-width:1028px) {
-   .bottom-cloud {
-    position: static;
+ 
+    .bottom-cloud {
+    position: absolute;
+    bottom: 55%;
+    left: 10%;
+    width: 15%;
    }
-   
+    
    .myimage {
     width: 20%;
  }
@@ -213,7 +217,10 @@ a:hover {
     }
 
     .top-cloud {
-        position: static;
+        position: absolute;
+        top: 15%;
+        left: 75%;
+        width: 15%;
     }
 
 }
